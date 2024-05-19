@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/lista">
+
+    <fragment
+        android:id="@+id/lista"
+        android:name="com.example.pokedex.fragments.ListaFragment"
+        android:label="Lista"
+        tools:layout="@layout/fragment_lista" />
+
+    <fragment
+        android:id="@+id/favoritos"
+        android:name="com.example.pokedex.fragments.FavoritosFragment"
+        android:label="Favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+
+    <fragment
+        android:id="@+id/perfil"
+        android:name="com.example.pokedex.fragments.PerfilFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
+</navigation>

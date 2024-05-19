@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="pokemon_abilities" type="id" />
+    <item name="pokemon_stats_label" type="id" />
+</resources>
